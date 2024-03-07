@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>Hola capo</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">Hola mostro</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">User</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Account</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bank</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Country</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	<div class="container p-5 my-5 bg-dark text-white text-center">
+		<form>
+			<div class="row">
+				<h3>Bank Properties</h3>
+
+				
+				<div class="col-4">
+					<label for="exampleInputEmail1" class="form-label">ID Number</label>
+					<input type="number" class="form-control" id="exampleInputNumber1" aria-describedby="numberHelp">
+					<div id="numberHelp" class="form-text">Bank account number.</div>
+				</div>
+
+				<div class="col-8">
+					<label for="exampleInputEmail1" class="form-label">Name</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					<div id="emailHelp" class="form-text">Type your full name here.</div>
+				</div>
+
+				<div class="col-4">
+					<label for="exampleInputEmail1" class="form-label">Select your country</label>
+					<select class="form-select form-select-sm" aria-label=".form-select-sm example">
+						<option selected>Open this select menu</option>
+						<option value="1">Argentina</option>
+						<option value="2">Chile</option>
+						<option value="3">Peru</option>
+					</select>
+				</div>
+
+				<div class="col-4">
+					<label for="exampleInputEmail1" class="form-label">Website</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					<div id="emailHelp" class="form-text">Insert your website here.</div>
+				</div>
+
+				<div class="col-4">
+					<label for="exampleInputEmail1" class="form-label">Adress</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					<div id="emailHelp" class="form-text">We'll never share your adress with anyone else.</div>
+					
+				</div>
+
+				
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
